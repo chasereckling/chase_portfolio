@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>ChasePortfolio</title>
+  <title>Chase Reckling</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
   <div id="sidebar">
+    <div id="logo">
+      <%= link_to root_path do %>
+        Chase Reckling
+      <% end %>
+    </div>
     <ul>
       <li class="category">Projects</li>
       <li><%= link_to "Blog", root_path %></li>
