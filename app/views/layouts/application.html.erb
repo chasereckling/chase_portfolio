@@ -8,26 +8,30 @@
 </head>
 <body>
   <div id="sidebar">
-    <div id="logo">
-      <%= link_to root_path do %>
-        Chase Reckling
-      <% end %>
+    <div class="top_navbar">
+      <div id="logo">
+        <%= link_to root_path do %>
+          Chase Reckling
+        <% end %>
+      </div>
     </div>
-    <ul>
-      <li class="category">Projects</li>
-      <li><%= link_to "Blog", root_path %></li>
-      <li>About</li>
-    </ul>
+    <div class="bottom_navbar">
+      <ul>
+        <li class="category">Projects</li>
+        <li><%= link_to "Blog", root_path %></li>
+        <li>About</li>
+      </ul>
 
-    <ul>
-      <li class="category">Social</li>
-      <li>Twitter</li>
-      <li>Instagram</li>
-      <li>Github</li>
-      <li>Email</li>
-    </ul>
+      <ul>
+        <li class="category">Social</li>
+        <li>Twitter</li>
+        <li>Instagram</li>
+        <li>Github</li>
+        <li>Email</li>
+      </ul>
 
-    <div class="sign_in">Admin Log in</div>
+      <div class="sign_in">Admin Login</div>
+    </div>
   </div>
 <%= yield %>
 
