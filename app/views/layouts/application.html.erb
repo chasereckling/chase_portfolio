@@ -7,7 +7,21 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <div id="sidebar">
+    <ul>
+      <li class="category">Projects</li>
+      <li><%= link_to "Blog", root_path %></li>
+      <li>About</li>
+    </ul>
 
+    <ul>
+      <li class="category">Social</li>
+      <li>Twitter</li>
+      <li>Instagram</li>
+      <li>Github</li>
+      <li>Email</li>
+    </ul>
+  </div>
 <%= yield %>
 
 </body>
