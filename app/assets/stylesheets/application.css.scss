@@ -28,7 +28,6 @@ a {
 	text-decoration: none;
 	color: inherit;
 }
-
 #sidebar {
 	width: 250px;
 	position: fixed;
@@ -38,19 +37,25 @@ a {
 	padding: 7em 0 0 0;
   background-color: #90e0d1;
 	#logo {
-		width: 40px;
+		width: 150px;
 		position: absolute;
 		right: 3em;
 		top: 3em;
     color: white;
+    text-align: left;
+    font-weight: 600;
 	}
   .bottom_navbar {
     background-color: #ef4f47;
     height: 100%;
   }
+  .top_navbar {
+    background-color: blue;
+    height: 100%;
+  }
 	ul {
 		list-style: none;
-		text-align: right;
+		text-align: left;
 		padding-right: 3em;
 		.category {
 			font-weight: 700;
